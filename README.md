@@ -10,20 +10,15 @@ This is a simple Bash script designed to monitor basic system metrics, including
 The script will automatically install these if they are not found on your system.
 
 ## Usage
-1. Clone the repository:
+
+1. Make the script executable:
     ```sh
-    git clone https://github.com/yourusername/simple-system-monitor.git
-    cd simple-system-monitor
+    chmod +x system_info.sh
     ```
 
-2. Make the script executable:
+2. Run the script:
     ```sh
-    chmod +x monitor.sh
-    ```
-
-3. Run the script:
-    ```sh
-    ./monitor.sh
+    ./system_info.sh
     ```
 
 ## Script Output
